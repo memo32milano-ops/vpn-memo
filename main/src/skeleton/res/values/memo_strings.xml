@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="memo_app_name">VPN Memo Pro</string>
+    <string name="memo_tap_connect">Tap to connect</string>
+    <string name="memo_connect">CONNECT</string>
+    <string name="memo_disconnect">DISCONNECT</string>
+    <string name="memo_connecting">Connecting…</string>
+    <string name="memo_connected">Connected</string>
+    <string name="memo_disconnected">Not connected</string>
+    <string name="memo_trying_next">Server did not answer, trying the next fastest server…</string>
+    <string name="memo_all_failed">Could not connect right now. Please refresh the list and try again.</string>
+    <string name="memo_loading">Finding working servers…</string>
+    <string name="memo_checking">Checking %1$d servers…</string>
+    <string name="memo_servers_ready">%1$d working servers in %2$d countries</string>
+    <string name="memo_load_failed">Could not load the server list. Check your internet connection and tap refresh.</string>
+    <string name="memo_refresh">Refresh</string>
+    <string name="memo_tab_fastest">Fastest</string>
+    <string name="memo_tab_arab">Arab countries</string>
+    <string name="memo_tab_all">All countries</string>
+    <string name="memo_no_arab">No Arab-country server is online right now. Volunteer servers change during the day — try refresh later.</string>
+    <string name="memo_auto">Fastest server (automatic)</string>
+    <string name="memo_ping">%1$d ms</string>
+    <string name="memo_speed">%1$s Mbps</string>
+    <string name="memo_selected">Selected server</string>
+    <string name="memo_traffic">↓ %1$s   ↑ %2$s</string>
+    <string name="memo_privacy">Privacy &amp; info</string>
+    <string name="memo_permission_denied">VPN permission is required to connect.</string>
+    <string name="memo_credit">Servers: VPN Gate Academic Experiment (University of Tsukuba, Japan) — free volunteer servers.</string>
+    <string name="memo_info_title">About VPN Memo Pro</string>
+    <string name="memo_info_body">VPN Memo Pro is a free VPN client. It connects you with an encrypted OpenVPN tunnel to free public servers run by volunteers of the VPN Gate Academic Experiment at the University of Tsukuba, Japan.\n\nWhat the app does:\n• Downloads the public VPN Gate server list and checks which servers answer, so you only see working servers.\n• Creates an encrypted OpenVPN tunnel (VpnService) between your phone and the server you choose. All your internet traffic then goes through that server.\n\nYour privacy:\n• The app has no account, no ads and no analytics. It does not collect, store, sell or share your browsing data or any personal data.\n• Your settings stay on your phone only.\n• Important: the servers are run by independent volunteers, not by us. According to the VPN Gate policy, server operators keep connection logs (such as your IP address and connection time) for a limited period. Do not use the service for anything illegal, and do not rely on it for strong anonymity.\n\nOpen source:\nThis app is based on \"OpenVPN for Android\" by Arne Schwabe and OpenVPN, licensed under the GNU GPL v2. The full source code is available at:\nhttps://github.com/memo32milano-ops/vpn-memo</string>
+    <string name="memo_privacy_link">Full privacy policy</string>
+    <string name="memo_notif_needed">Allow notifications so Android can show the VPN status while it is running.</string>
+</resources>

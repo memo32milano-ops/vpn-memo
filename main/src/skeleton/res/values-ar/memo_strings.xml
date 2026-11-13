@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="memo_app_name">VPN Memo Pro</string>
+    <string name="memo_tap_connect">اضغط للاتصال</string>
+    <string name="memo_connect">اتصال</string>
+    <string name="memo_disconnect">قطع الاتصال</string>
+    <string name="memo_connecting">جارٍ الاتصال…</string>
+    <string name="memo_connected">متصل</string>
+    <string name="memo_disconnected">غير متصل</string>
+    <string name="memo_trying_next">السيرفر لم يرد، جارٍ تجربة أسرع سيرفر تالٍ…</string>
+    <string name="memo_all_failed">تعذّر الاتصال الآن. حدّث القائمة وحاول مرة أخرى.</string>
+    <string name="memo_loading">جارٍ البحث عن السيرفرات الشغالة…</string>
+    <string name="memo_checking">جارٍ فحص %1$d سيرفر…</string>
+    <string name="memo_servers_ready">%1$d سيرفر شغال في %2$d دولة</string>
+    <string name="memo_load_failed">تعذّر تحميل قائمة السيرفرات. تأكد من الإنترنت واضغط تحديث.</string>
+    <string name="memo_refresh">تحديث</string>
+    <string name="memo_tab_fastest">الأسرع</string>
+    <string name="memo_tab_arab">الدول العربية</string>
+    <string name="memo_tab_all">كل الدول</string>
+    <string name="memo_no_arab">لا يوجد سيرفر في دولة عربية متاح الآن. السيرفرات التطوعية تتغير خلال اليوم — جرّب التحديث لاحقًا.</string>
+    <string name="memo_auto">أسرع سيرفر (تلقائي)</string>
+    <string name="memo_ping">%1$d مللي ث</string>
+    <string name="memo_speed">%1$s ميجابت/ث</string>
+    <string name="memo_selected">السيرفر المختار</string>
+    <string name="memo_traffic">↓ %1$s   ↑ %2$s</string>
+    <string name="memo_privacy">الخصوصية والمعلومات</string>
+    <string name="memo_permission_denied">لازم توافق على إذن الـVPN عشان تتصل.</string>
+    <string name="memo_credit">السيرفرات: تجربة VPN Gate الأكاديمية (جامعة تسوكوبا، اليابان) — سيرفرات تطوعية مجانية.</string>
+    <string name="memo_info_title">عن VPN Memo Pro</string>
+    <string name="memo_info_body">VPN Memo Pro تطبيق VPN مجاني. يوصّلك عبر نفق OpenVPN مشفّر بسيرفرات عامة مجانية يشغّلها متطوعون ضمن تجربة VPN Gate الأكاديمية في جامعة تسوكوبا باليابان.\n\nماذا يفعل التطبيق:\n• يحمّل قائمة سيرفرات VPN Gate العامة ويفحص أيها يرد، فتظهر لك السيرفرات الشغالة فقط.\n• ينشئ نفق OpenVPN مشفّر (VpnService) بين موبايلك والسيرفر الذي تختاره، وكل اتصال الإنترنت يمر عبر هذا السيرفر.\n\nخصوصيتك:\n• لا يوجد حساب ولا إعلانات ولا أدوات تحليل. التطبيق لا يجمع ولا يخزّن ولا يبيع ولا يشارك بيانات تصفحك أو أي بيانات شخصية.\n• إعداداتك تبقى على موبايلك فقط.\n• مهم: السيرفرات يديرها متطوعون مستقلون وليس نحن. حسب سياسة VPN Gate، يحتفظ مشغّلو السيرفرات بسجلات الاتصال (مثل عنوان IP ووقت الاتصال) لفترة محدودة. لا تستخدم الخدمة في أي شيء مخالف للقانون، ولا تعتمد عليها لإخفاء هويتك بشكل كامل.\n\nمفتوح المصدر:\nالتطبيق مبني على \"OpenVPN for Android\" للمطوّر Arne Schwabe وعلى OpenVPN، برخصة GNU GPL v2. الكود الكامل متاح على:\nhttps://github.com/memo32milano-ops/vpn-memo</string>
+    <string name="memo_privacy_link">سياسة الخصوصية كاملة</string>
+    <string name="memo_notif_needed">اسمح بالإشعارات عشان أندرويد يعرض حالة الـVPN وهو شغال.</string>
+</resources>

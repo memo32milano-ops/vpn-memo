@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ VPN Memo Pro - based on OpenVPN for Android (ics-openvpn) by Arne Schwabe.
+  ~ Distributed under the GNU GPL v2 with additional terms. See doc/LICENSE.txt
+  -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions the app does not need: removed so Play policy review stays clean -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:node="remove" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove" />
+    <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" tools:node="remove" />
+
+    <application
+        android:icon="@mipmap/ic_memo"
+        android:roundIcon="@mipmap/ic_memo_round"
+        android:label="@string/memo_app_name"
+        android:theme="@style/MemoTheme"
+        android:networkSecurityConfig="@xml/memo_network_security"
+        tools:replace="android:icon,android:roundIcon,android:label,android:theme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name="com.pro.vpnmemo.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/MemoTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.pro.vpnmemo.InfoActivity"
+            android:exported="false"
+            android:theme="@style/MemoTheme" />
+
+        <!-- The VPN notification opens <applicationId>.activities.MainActivity -->
+        <activity-alias
+            android:name="com.pro.vpnmemo.activities.MainActivity"
+            android:exported="false"
+            android:targetActivity="com.pro.vpnmemo.MainActivity" />
+
+        <activity
+            android:exported="false"
+            android:name=".activities.NotImplemented"
+            tools:ignore="ExportedActivity" />
+
+        <activity-alias
+            android:exported="false"
+            android:name=".activities.LogWindow"
+            android:targetActivity="com.pro.vpnmemo.MainActivity" />
+
+        <activity-alias
+            android:exported="false"
+            android:name=".activities.Req"
+            android:targetActivity=".activities.NotImplemented" />
+
+        <!-- Remote-control API of OpenVPN for Android is not used: removed -->
+        <service android:name=".api.ExternalOpenVPNService" tools:node="remove" />
+        <activity android:name=".api.GrantPermissionsActivity" tools:node="remove" />
+        <activity android:name=".api.ConfirmDialog" tools:node="remove" />
+        <activity android:name=".api.RemoteAction" tools:node="remove" />
+        <activity-alias android:name=".api.ConnectVPN" tools:node="remove" />
+        <activity-alias android:name=".api.DisconnectVPN" tools:node="remove" />
+        <activity-alias android:name=".api.PauseVPN" tools:node="remove" />
+        <activity-alias android:name=".api.ResumeVPN" tools:node="remove" />
+        <activity-alias android:name=".api.SetDefaultVPN" tools:node="remove" />
+
+    </application>
+
+</manifest>
